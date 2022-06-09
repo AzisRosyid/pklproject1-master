@@ -1,0 +1,12 @@
+.img2 {
+	position: absolute;
+	z-index: 9990000;
+	width: 470px;
+	height: 270px;
+}
+
+.img2 img {
+	width: 500px;
+	left: 20%;
+	bottom: -10%;
+}

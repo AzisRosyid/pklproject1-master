@@ -1,0 +1,247 @@
+/*
+
+Style : Purple Theme CSS
+Version : 1.0
+Author  : Surjith S M
+URI   : http://themeforest.net/user/surjithctly
+
+Copyright © All rights Reserved
+Surjith S M / @surjithctly
+
+*/
+
+
+/* 
+   COLOR PALLETTES : Purple
+   ------------------------------------------------
+  
+   Purple 1       : #a640d0;
+   Dark Grey      : #3b3b3b;
+   Medium Grey    : #5c5c5c;
+   Light Grey     : #818181;
+   Lightest Grey  : #C2C2C2;
+   White          : #ffffff;
+
+   
+   */
+
+
+/* ================================================
+   THEME SPECIFIC STYLES : VISUAL STYLES ONLY
+   ================================================ */
+
+
+/*White*/
+
+body {
+    background: #fff;
+}
+
+.appointment-form .form-header h4,
+.appointment-form .form-header a {
+    color: #FFF;
+}
+
+
+/*Grey*/
+
+.headline-support {
+    color: #898989;
+}
+
+body,
+.timeline-content h2 {
+    color: #5c5c5c;
+}
+
+.nav-pills>li>a {
+    color: #C2C2C2;
+}
+
+.form-control:focus {
+    border-color: #C2C2C2;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #818181;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #C2C2C2;
+}
+
+.header,
+.sub-header {
+    background-color: #f7f7f5;
+}
+
+.text-dark {
+    color: #3b3b3b!important;
+}
+
+
+/* red
+ * ----- */
+
+::-moz-selection {
+    background: #a640d0;
+    color: #FFF;
+}
+
+::selection {
+    background: #a640d0;
+    color: #FFF;
+}
+
+
+/* Contrast
+ * -------- */
+
+.caption-title {
+    color: #a640d0;
+}
+
+
+/*color*/
+
+a,
+a:hover,
+a:focus,
+.speaker-info p,
+.highlighted-plan .price,
+.highlighted-plan .plan-name,
+.benefit-item .benefit-icon i,
+.text-highlight,
+.phone-icon,
+.checklist i {
+    color: #a640d0;
+}
+
+
+/*background*/
+
+.pace .pace-progress {
+    background: #a640d0;
+}
+
+.timeline::before {
+    background: #a640d0;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #FFF;
+    background-color: #a640d0;
+}
+
+
+/*border*/
+
+.phone-icon {
+    border-color: #a640d0;
+}
+
+.section-title hr {
+    border-top-color: #a640d0;
+}
+
+
+/*background color*/
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    background-color: #a640d0;
+}
+
+
+/*contrast color*/
+
+.appointment-form .form-header {
+    background-color: #a640d0;
+    border-color: #a640d0;
+}
+
+
+/* 
+  BUTTONS
+  ------- */
+
+.btn-default {
+    color: #a640d0;
+    border-color: #FFF;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active {
+    background-color: transparent;
+    border-color: #FFF;
+    color: #FFF;
+}
+
+.btn-primary {
+    background-color: #5c5c5c;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    background-color: #3b3b3b;
+}
+
+.btn-success {
+    background-color: #a640d0;
+    border-color: #a640d0;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active {
+    background-color: #FFF;
+    border-color: #a640d0;
+    color: #a640d0;
+}
+
+.btn-outline {
+    color: #8C8C8C;
+    border-color: #CACACA;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    background-color: transparent;
+    border-color: #818181;
+    color: #8C8C8C;
+}
+
+.btn-success.disabled,
+.btn-success.disabled.active,
+.btn-success.disabled.focus,
+.btn-success.disabled:active,
+.btn-success.disabled:focus,
+.btn-success.disabled:hover,
+.btn-success[disabled],
+.btn-success[disabled].active,
+.btn-success[disabled].focus,
+.btn-success[disabled]:active,
+.btn-success[disabled]:focus,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success,
+fieldset[disabled] .btn-success.active,
+fieldset[disabled] .btn-success.focus,
+fieldset[disabled] .btn-success:active,
+fieldset[disabled] .btn-success:focus,
+fieldset[disabled] .btn-success:hover {
+    background-color: #a640d0;
+    border-color: #a640d0;
+    color: #FFF;
+}
+

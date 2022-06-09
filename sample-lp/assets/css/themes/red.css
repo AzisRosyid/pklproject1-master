@@ -1,0 +1,244 @@
+/*
+
+Style : Red Theme CSS
+Version : 1.0
+Author  : Surjith S M
+URI   : http://themeforest.net/user/surjithctly
+
+Copyright © All rights Reserved
+Surjith S M / @surjithctly
+
+*/
+
+
+/* 
+   COLOR PALLETTES : Red
+   ------------------------------------------------
+  
+   Red 1          : #ff4444;
+   Dark Grey      : #3b3b3b;
+   Medium Grey    : #5c5c5c;
+   Light Grey     : #898989;
+   Lightest Grey  : #C2C2C2;
+   White          : #ffffff;
+   Blue Shade     : #449CFF;
+
+   
+   */
+
+
+/* ================================================
+   THEME SPECIFIC STYLES : VISUAL STYLES ONLY
+   ================================================ */
+
+
+/*White*/
+
+body {
+    background: #fff;
+}
+
+.appointment-form .form-header h4,
+.appointment-form .form-header a {
+    color: #FFF;
+}
+
+
+/*Grey*/
+
+.headline-support {
+    color: #898989;
+}
+
+body,
+.timeline-content h2 {
+    color: #5c5c5c;
+}
+
+.nav-pills>li>a {
+    color: #C2C2C2;
+}
+
+.form-control:focus {
+    border-color: #C2C2C2;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #818181;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #C2C2C2;
+}
+
+.header,
+.sub-header {
+    background-color: #f7f7f5;
+}
+
+
+/* red
+ * ----- */
+
+::-moz-selection {
+    background: #ff4444;
+    color: #FFF;
+}
+
+::selection {
+    background: #ff4444;
+    color: #FFF;
+}
+
+
+/* Contrast
+ * -------- */
+
+.caption-title {
+    color: #449CFF;
+}
+
+
+/*color*/
+
+a,
+a:hover,
+a:focus,
+.speaker-info p,
+.highlighted-plan .price,
+.highlighted-plan .plan-name,
+.benefit-item .benefit-icon i,
+.text-highlight,
+.phone-icon,
+.checklist i {
+    color: #ff4444;
+}
+
+
+/*background*/
+
+.pace .pace-progress {
+    background: #ff4444;
+}
+
+.timeline::before {
+    background: #ff4444;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #FFF;
+    background-color: #ff4444;
+}
+
+
+/*border*/
+
+.phone-icon {
+    border-color: #ff4444;
+}
+
+.section-title hr {
+    border-top-color: #ff4444;
+}
+
+
+/*background color*/
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    background-color: #ff4444;
+}
+
+
+/*contrast color*/
+
+.appointment-form .form-header {
+    background-color: #448aff;
+    border-color: #448aff;
+}
+
+
+/* 
+  BUTTONS
+  ------- */
+
+.btn-default {
+    color: #ff4444;
+    border-color: #FFF;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active {
+    background-color: transparent;
+    border-color: #FFF;
+    color: #FFF;
+}
+
+.btn-primary {
+    background-color: #5c5c5c;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    background-color: #3b3b3b;
+}
+
+.btn-success {
+    background-color: #ff4444;
+    border-color: #ff4444;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active {
+    background-color: #FFF;
+    border-color: #ff4444;
+    color: #ff4444;
+}
+
+.btn-outline {
+    color: #8C8C8C;
+    border-color: #CACACA;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    background-color: transparent;
+    border-color: #818181;
+    color: #8C8C8C;
+}
+
+.btn-success.disabled,
+.btn-success.disabled.active,
+.btn-success.disabled.focus,
+.btn-success.disabled:active,
+.btn-success.disabled:focus,
+.btn-success.disabled:hover,
+.btn-success[disabled],
+.btn-success[disabled].active,
+.btn-success[disabled].focus,
+.btn-success[disabled]:active,
+.btn-success[disabled]:focus,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success,
+fieldset[disabled] .btn-success.active,
+fieldset[disabled] .btn-success.focus,
+fieldset[disabled] .btn-success:active,
+fieldset[disabled] .btn-success:focus,
+fieldset[disabled] .btn-success:hover {
+    background-color: #ff4444;
+    border-color: #ff4444;
+    color: #FFF;
+}
+
